@@ -11,14 +11,3 @@ let generateMessageFunction = obj => {
 }
 
 generateMessageFunction(messages)
-
-// let generateFunction = obj => {
-//     let values = Object.values(obj)
-//     let randomValue1 = values[0][Math.floor(Math.random() * values[0].length)]
-//     let randomValue2 = values[1][Math.floor(Math.random() * values[1].length)]
-//     let randomValue3 = values[2][Math.floor(Math.random() * values[2].length)]
-//     return `${randomValue1} ${randomValue2} ${randomValue3}`
-// }
-
-// console.log(generateFunction(messages));
-
